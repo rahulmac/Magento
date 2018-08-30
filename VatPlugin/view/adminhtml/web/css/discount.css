@@ -1,0 +1,6 @@
+#vatdiscountform .admin__control-text{
+    width: 400px;
+}
+#success-message,#failure-message{
+ display: none;
+}

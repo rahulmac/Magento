@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Rahul_VatPlugin::first_custom_menu"
+             title="Discount Plugin"
+             module="Rahul_VatPlugin"
+             sortOrder="9999"
+             action="vatplugin/vatplugin/index"
+             resource="Magento_Backend::content" />
+    </menu>
+</config>

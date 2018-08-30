@@ -1,0 +1,27 @@
+<div id="vatdiscount-block"  data-bind='visible: shouldShowDiv'>
+    <div class="msg-block" >
+        <div class="message message-error error" data-bind='visible: showerror,text:errormessage'>
+        </div>
+        <div class="message-success success message" data-bind='visible: showsuccess'>
+            Vat code has been applied succesfully!
+        </div>
+    </div>
+    <input type="text" name="text" value="" placeholder="Enter Vat Discount Code" id="vatdiscounttextbox" data-bind="value: vatdiscounttextbox">
+    <input class="action primary" type="button" data-bind=" click: validatevat" id="vatdiscount" name="button" value="Add Vat Discount">
+</div>
+<style>
+    #vatdiscount-block{
+        max-width: 500px;
+        height: 135px;
+    }
+    .msg-block{
+        height: 25px;
+    }
+    #vatdiscounttextbox{
+        margin-top: 20px;
+    }
+    #vatdiscount{
+        float: right;
+        margin-top: 10px;
+    }
+</style>
